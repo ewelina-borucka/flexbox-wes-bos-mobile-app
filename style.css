@@ -77,3 +77,23 @@ a.button {
   color: rgba(0,0,0,0.5);
   padding: 1rem;
 }
+
+
+
+/* FLEXBOX statrs here */
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/* all flex items for app-wrap*/
+.app-wrap > * {
+  flex: 1 1 auto;
+}
+
+/* Content scroll*/
+.content {
+  overflow: scroll;
+}
+/**/
