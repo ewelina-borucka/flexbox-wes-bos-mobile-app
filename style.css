@@ -93,7 +93,9 @@ a.button {
 }
 
 /* Content scroll*/
+/* The -webkit-overflow-scrolling CSS property controls whether or not touch devices use momentum-based scrolling for the given element. */
 .content {
-  overflow: scroll;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 /**/
